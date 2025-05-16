@@ -54,7 +54,7 @@ export const Navbar = () => {
 						return (
 							<li key={index} className={item.cName}>
 								<Link to={item.path}>
-									{item.icon}
+									<i class={item.icon}></i>
 									<span>{item.title}</span>
 								</Link>
 							</li>
